@@ -16,6 +16,8 @@
 		7B25F07E294E546200C34099 /* ChartsWithSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B25F07D294E546200C34099 /* ChartsWithSwiftUITests.swift */; };
 		7B25F088294E546200C34099 /* ChartsWithSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B25F087294E546200C34099 /* ChartsWithSwiftUIUITests.swift */; };
 		7B25F08A294E546200C34099 /* ChartsWithSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B25F089294E546200C34099 /* ChartsWithSwiftUIUITestsLaunchTests.swift */; };
+		7B25F099294E54C400C34099 /* SiteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B25F098294E54C300C34099 /* SiteView.swift */; };
+		7B25F09B294E570700C34099 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B25F09A294E570700C34099 /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		7B25F083294E546200C34099 /* ChartsWithSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChartsWithSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B25F087294E546200C34099 /* ChartsWithSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsWithSwiftUIUITests.swift; sourceTree = "<group>"; };
 		7B25F089294E546200C34099 /* ChartsWithSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsWithSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7B25F098294E54C300C34099 /* SiteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiteView.swift; sourceTree = "<group>"; };
+		7B25F09A294E570700C34099 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,8 @@
 		7B25F05B294E546000C34099 = {
 			isa = PBXGroup;
 			children = (
+				7B25F097294E549100C34099 /* View */,
+				7B25F096294E547A00C34099 /* Model */,
 				7B25F066294E546000C34099 /* ChartsWithSwiftUI */,
 				7B25F07C294E546200C34099 /* ChartsWithSwiftUITests */,
 				7B25F086294E546200C34099 /* ChartsWithSwiftUIUITests */,
@@ -131,6 +137,22 @@
 				7B25F089294E546200C34099 /* ChartsWithSwiftUIUITestsLaunchTests.swift */,
 			);
 			path = ChartsWithSwiftUIUITests;
+			sourceTree = "<group>";
+		};
+		7B25F096294E547A00C34099 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7B25F098294E54C300C34099 /* SiteView.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7B25F097294E549100C34099 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7B25F09A294E570700C34099 /* Home.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,7 +287,9 @@
 			files = (
 				7B25F071294E546200C34099 /* Persistence.swift in Sources */,
 				7B25F06A294E546000C34099 /* ContentView.swift in Sources */,
+				7B25F099294E54C400C34099 /* SiteView.swift in Sources */,
 				7B25F074294E546200C34099 /* ChartsWithSwiftUI.xcdatamodeld in Sources */,
+				7B25F09B294E570700C34099 /* Home.swift in Sources */,
 				7B25F068294E546000C34099 /* ChartsWithSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
