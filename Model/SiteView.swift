@@ -26,16 +26,19 @@ extension Date {
 }
 
 var sample_analytics : [SiteView] = [
-    SiteView(hour: Date().updateHour(value: 8), views: 15400),
-    SiteView(hour: Date().updateHour(value: 9), views: 15050),
-    SiteView(hour: Date().updateHour(value: 18), views: 15600),
-    SiteView(hour: Date().updateHour(value: 28), views: 15070),
-    SiteView(hour: Date().updateHour(value: 28), views: 15004),
-    SiteView(hour: Date().updateHour(value: 18), views: 15400),
-    SiteView(hour: Date().updateHour(value: 8), views: 15040),
-    SiteView(hour: Date().updateHour(value: 28), views: 14500),
-    SiteView(hour: Date().updateHour(value: 18), views: 14500),
-    SiteView(hour: Date().updateHour(value: 8), views: 15040),
+    SiteView(hour: Date().updateHour(value: 1), views: 1400),
+    SiteView(hour: Date().updateHour(value: 2), views: 1050),
+    SiteView(hour: Date().updateHour(value: 2), views: 1050),
+    SiteView(hour: Date().updateHour(value: 3), views: 1600),
+    SiteView(hour: Date().updateHour(value: 4), views: 1070),
+    SiteView(hour: Date().updateHour(value: 5), views: 1000),
+    SiteView(hour: Date().updateHour(value: 6), views: 1400),
+    SiteView(hour: Date().updateHour(value: 7), views: 1040),
+    SiteView(hour: Date().updateHour(value: 8), views: 1500),
+    SiteView(hour: Date().updateHour(value: 9), views: 1500),
+    SiteView(hour: Date().updateHour(value: 10), views: 1500),
+    SiteView(hour: Date().updateHour(value: 11), views: 1040),
+    SiteView(hour: Date().updateHour(value: 12), views: 1040),
 
 
 ]
